@@ -3,7 +3,7 @@ package com.mulitmenuselect.demo;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+//import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -11,6 +11,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.mulitmenuselect.demo.adapter.DictDialogAdapter;
 import com.mulitmenuselect.demo.adapter.MyPagerAdapter;
@@ -23,7 +25,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
     private Context mContext;
     public DictDataManager mDictDataManager = DictDataManager.getInstance();
     private MyViewPager mViewPager;

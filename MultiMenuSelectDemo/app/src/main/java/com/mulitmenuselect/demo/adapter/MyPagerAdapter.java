@@ -1,8 +1,10 @@
 package com.mulitmenuselect.demo.adapter;
 
-import android.support.v4.view.PagerAdapter;
+//import android.support.v4.view.PagerAdapter;
 import android.util.Log;
 import android.view.View;
+
+import androidx.viewpager.widget.PagerAdapter;
 
 import com.mulitmenuselect.demo.widget.MyViewPager;
 

@@ -1,8 +1,9 @@
 package com.mulitmenuselect.demo.widget;
 
 import android.content.Context;
-import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
+
+import androidx.viewpager.widget.ViewPager;
 
 /**
  * Created by yuliang.zhao on 2015/3/5.
